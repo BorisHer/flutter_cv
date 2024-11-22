@@ -61,47 +61,47 @@ class _BasicScreenState extends State<BasicScreen> {
               ),
             ),
             ListTile(
-              leading: Icon(
+              leading: const Icon(
                 Icons.circle, // Circle icon
                 color: Colors.grey,
               ),
               title: const Text('Education'),
               onTap: () {
-                _onItemTapped(0);
-                Navigator.pop(context);
+                /*_onItemTapped(0);
+                Navigator.pop(context);*/
               },
             ),
             ListTile(
-              leading: Icon(
+              leading: const Icon(
                 Icons.circle,
                 color: Colors.grey,
               ),
               title: const Text('Skills'),
               onTap: () {
-                _onItemTapped(1);
-                Navigator.pop(context);
+                /*_onItemTapped(1);
+                Navigator.pop(context);*/
               },
             ),
             ListTile(
-              leading: Icon(
+              leading: const Icon(
                 Icons.circle,
                 color: Colors.grey,
               ),
               title: const Text('Projects'),
               onTap: () {
-                _onItemTapped(2);
-                Navigator.pop(context);
+                /*_onItemTapped(2);
+                Navigator.pop(context);*/
               },
             ),
             ListTile(
-              leading: Icon(
+              leading: const Icon(
                 Icons.circle,
                 color: Colors.grey,
               ),
               title: const Text('Experience'),
               onTap: () {
-                _onItemTapped(3);
-                Navigator.pop(context);
+                /*_onItemTapped(3);
+                Navigator.pop(context);*/
               },
             ),
           ],
